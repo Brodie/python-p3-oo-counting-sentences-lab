@@ -41,7 +41,7 @@ class TestMyString:
     def test_count_sentences(self):
         """returns the number of sentences in the value."""
         simple_string = MyString("one. two. three?")
-        empty_string = MyString("")
+        empty_string = MyString()
         complex_string = MyString(
             "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
         )
